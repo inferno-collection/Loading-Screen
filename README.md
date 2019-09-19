@@ -1,3 +1,4 @@
+![channels4_banner|690x114](https://i.ibb.co/CHMD8y6/channels4-banner.jpg) 
 # Loading-Screen
 
 [![Build Status](https://travis-ci.com/inferno-collection/Loading-Screen.svg?branch=master)](https://travis-ci.com/inferno-collection/Loading-Screen)

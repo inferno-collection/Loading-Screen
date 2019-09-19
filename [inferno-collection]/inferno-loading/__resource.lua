@@ -1,4 +1,4 @@
--- Inferno Collection Loading Screen 1.0
+-- Inferno Collection Loading Screen 1.1
 --
 -- Copyright (c) 2019, Christopher M, Inferno Collection. All rights reserved.
 --

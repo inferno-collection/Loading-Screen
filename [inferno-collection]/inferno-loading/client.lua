@@ -1,4 +1,4 @@
--- Inferno Collection Loading Screen 1.0
+-- Inferno Collection Loading Screen 1.1
 --
 -- Copyright (c) 2019, Christopher M, Inferno Collection. All rights reserved.
 --
@@ -8,8 +8,14 @@
 -- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. THE SOFTWARE MAY NOT BE SOLD.
 --
 
+-- Variable to check if native has already been run
+local Ran = false
+
 -- Wait until client is loaded into the map
 AddEventHandler("onClientMapStart", function ()
-	-- Close loading screen resource
-	ShutdownLoadingScreenNui()
+	-- If not already ran
+	if not Ran then
+		-- Close loading screen resource
+		ShutdownLoadingScreenNui()
+	end
 end)

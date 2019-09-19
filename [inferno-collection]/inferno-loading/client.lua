@@ -17,7 +17,7 @@ AddEventHandler("onClientMapStart", function ()
 	if not Ran then
 		-- Close loading screen resource
 		ShutdownLoadingScreenNui()
-     -- Set as ran
-     Ran = true
+		-- Set as ran
+		Ran = true
 	end
 end)
